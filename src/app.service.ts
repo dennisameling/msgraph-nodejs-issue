@@ -14,9 +14,6 @@ export class AppService {
 
   constructor(private readonly configService: ConfigService) {
     this.client = Client.initWithMiddleware({
-      fetchOptions: {
-        timeout: 10000,
-      },
       authProvider: new AuthProvider(this.configService),
     });
   }

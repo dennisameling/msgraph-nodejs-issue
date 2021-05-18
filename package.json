@@ -21,7 +21,7 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
-    "@microsoft/microsoft-graph-client": "^2.2.1",
+    "@microsoft/microsoft-graph-client": "^3.0.0-Preview.1",
     "@nestjs/common": "^7.6.15",
     "@nestjs/config": "^0.6.3",
     "@nestjs/core": "^7.6.15",
